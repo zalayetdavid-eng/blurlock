@@ -4,7 +4,7 @@ blur.addEventListener("click",()=>{
 
     const password = prompt("Enter password");
 
-    if(password==="1234"){
+    if(password==="46140"){
 
         blur.classList.add("open");
 
