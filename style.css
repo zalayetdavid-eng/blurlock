@@ -18,9 +18,9 @@ body{
     position:absolute;
 
     left:315px;
-    top:190px;
+    top:150px;
 
-    width:190px;
+    width:200px;
     height:230px;
 
     backdrop-filter:blur(20px);
