@@ -19,7 +19,8 @@ body{
     position:absolute;
 
     /* נזיז בהמשך בדיוק על הפנים */
-left:3000px;
+    
+left:300px;
 top:185px;
     
 width:250px;
