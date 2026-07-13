@@ -14,25 +14,23 @@ body{
     width:700px;
     border-radius:12px;
 }
-
 #blur{
     position:absolute;
 
-    /* נזיז בהמשך בדיוק על הפנים */
-    
-left:300px;
-top:185px;
-    
-width:250px;
-height:300px;
+    left:315px;
+    top:150px;
 
-    backdrop-filter:blur(18px);
-    -webkit-backdrop-filter:blur(18px);
+    width:170px;
+    height:200px;
 
-    background:rgba(255,255,255,.15);
+    backdrop-filter:blur(20px);
+    -webkit-backdrop-filter:blur(20px);
 
-    border:2px solid white;
-    border-radius:50%;
+    background:rgba(255,255,255,.12);
+
+    border:2px solid rgba(255,255,255,.8);
+
+    border-radius:45%;
 
     cursor:pointer;
 
