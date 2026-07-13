@@ -19,11 +19,11 @@ body{
     position:absolute;
 
     /* נזיז בהמשך בדיוק על הפנים */
-left:330px;
-top:145px;
+left:430px;
+top:185px;
     
-width:150px;
-height:170px;
+width:250px;
+height:3000px;
 
     backdrop-filter:blur(18px);
     -webkit-backdrop-filter:blur(18px);
