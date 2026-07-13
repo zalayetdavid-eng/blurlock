@@ -1,0 +1,47 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f2f2f2;
+    text-align:center;
+}
+
+.container{
+    position:relative;
+    display:inline-block;
+    margin-top:30px;
+}
+
+#photo{
+    width:700px;
+    border-radius:12px;
+}
+
+#blur{
+    position:absolute;
+
+    /* נזיז בהמשך בדיוק על הפנים */
+    left:245px;
+    top:115px;
+
+    width:170px;
+    height:170px;
+
+    backdrop-filter:blur(18px);
+    -webkit-backdrop-filter:blur(18px);
+
+    background:rgba(255,255,255,.15);
+
+    border:2px solid white;
+    border-radius:50%;
+
+    cursor:pointer;
+
+    transition:all .4s ease;
+}
+
+#blur.open{
+    backdrop-filter:blur(0px);
+    -webkit-backdrop-filter:blur(0px);
+
+    background:transparent;
+    border:none;
+}
