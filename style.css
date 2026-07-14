@@ -23,8 +23,8 @@ body{
     width:200px;
     height:230px;
 
-    backdrop-filter:blur(20px);
-    -webkit-backdrop-filter:blur(20px);
+    backdrop-filter:blur(30px);
+    -webkit-backdrop-filter:blur(30px);
 
     background:rgba(255,255,255,.12);
 
