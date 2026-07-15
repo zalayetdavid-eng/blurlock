@@ -26,7 +26,7 @@ h1{
     left:0;
     top:0;
 
-    filter:blur(18px);
+    filter:blur(50px);
     transition:opacity .6s ease;
 }
 
