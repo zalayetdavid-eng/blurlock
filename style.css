@@ -41,7 +41,7 @@ h1{
     opacity:0;
 }
 
-#unlockButton{
+/* #unlockButton{
 
     position:absolute;
 
@@ -65,7 +65,7 @@ h1{
     box-shadow:0 6px 20px rgba(0,0,0,.3);
 
     transition:.3s;
-} /*
+} */
 
 #unlockButton{
 
@@ -98,7 +98,7 @@ h1{
 
     transition:.25s;
 }
-*/
+
 #unlockButton:hover{
     transform:translate(-50%,-50%) scale(1.2);
 }
