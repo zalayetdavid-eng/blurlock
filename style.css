@@ -18,7 +18,10 @@ body{
 
 #blur{
     position:absolute;
-    inset:0;
+    left:315px;
+    top:150px;
+    width:180px;
+    height:220px;
 
     backdrop-filter:blur(30px);
     -webkit-backdrop-filter:blur(30px);
