@@ -1,13 +1,67 @@
 body{
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background: #eee;
+    margin:0;
+    font-family:Arial,Helvetica,sans-serif;
+    background:#f0f0f0;
+    text-align:center;
 }
 
-#photo{
+h1{
+    margin-top:30px;
+}
+
+.container{
+    position:relative;
+    display:inline-block;
+    margin-top:20px;
+}
+
+.photo{
     width:700px;
+    display:block;
+    border-radius:20px;
 }
 
-#blur{
-    display:none;
+.blurPhoto{
+    position:absolute;
+    left:0;
+    top:0;
+
+    filter:blur(18px);
+    transition:opacity .6s ease;
+}
+
+.blurPhoto.hide{
+    opacity:0;
+}
+
+#unlockButton{
+
+    position:absolute;
+
+    left:50%;
+    top:50%;
+
+    transform:translate(-50%,-50%);
+
+    padding:16px 28px;
+
+    font-size:22px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:white;
+
+    cursor:pointer;
+
+    box-shadow:0 6px 20px rgba(0,0,0,.3);
+
+    transition:.3s;
+}
+
+#unlockButton:hover{
+
+    transform:translate(-50%,-50%) scale(1.05);
+
 }
