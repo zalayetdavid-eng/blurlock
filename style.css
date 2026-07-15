@@ -11,29 +11,36 @@ body{
 }
 
 #photo{
-    width:700px;
+    width:min(700px, 92vw);
     border-radius:25px;
+    display:block;
 }
+#/* אזור הטשטוש */
 #blur{
     position:absolute;
 
-    left:315px;
-    top:150px;
+    /* מיקום על הפנים */
+    left:300px;
+    top:135px;
 
-    width:200px;
-    height:230px;
+    /* גודל האליפסה */
+    width:190px;
+    height:210px;
 
-    backdrop-filter:blur(30px);
-    -webkit-backdrop-filter:blur(30px);
+    /* טשטוש חזק */
+    backdrop-filter:blur(28px);
+    -webkit-backdrop-filter:blur(28px);
 
-    background:rgba(255,255,255,.12);
+    /* שכבה עדינה */
+    background:rgba(255,255,255,0.10);
 
-    border:2px solid rgba(255,255,255,.8);
+    /* מסגרת */
+    border:2px solid rgba(255,255,255,0.85);
 
-    border-radius:45%;
+    /* אליפסה אמיתית */
+    border-radius:50%;
 
     cursor:pointer;
-
     transition:all .4s ease;
 }
 
