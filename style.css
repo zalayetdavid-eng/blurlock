@@ -18,6 +18,7 @@ body{
 
 #blur{
     position:absolute;
+
     left:315px;
     top:150px;
     width:180px;
@@ -28,7 +29,7 @@ body{
 
     background:rgba(255,255,255,.12);
 
-    border-radius:20px;
+    border-radius:45%;
 
     display:flex;
     justify-content:center;
@@ -38,7 +39,6 @@ body{
 
     transition:.5s;
 }
-
 #blur.open{
     opacity:0;
     pointer-events:none;
