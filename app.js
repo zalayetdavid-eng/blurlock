@@ -1,19 +1,13 @@
-const blur = document.getElementById("blur");
+const blur=document.getElementById("blur");
 
-blur.addEventListener("click",()=>{
+blur.onclick=function(){
 
-    const password = prompt("Enter password");
+    const pwd=prompt("Password");
 
-    if(password==="46140"){
-
+    if(pwd==="1234"){
         blur.classList.add("open");
-
-        alert("Unlocked!");
-
     }else{
-
         alert("Wrong password");
-
     }
 
-});
+}
