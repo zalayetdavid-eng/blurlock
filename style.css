@@ -25,11 +25,16 @@ h1{
     position:absolute;
     left:0;
     top:0;
-    filter:blur(40px) brightness(0.7);
 
-    transition:opacity .6s ease;
-    filter:blur(250px);
-    transition:opacity .6s ease;
+    filter:blur(45px) brightness(.55);
+
+    opacity:1;
+
+    transition:opacity .7s ease;
+
+    z-index:1;
+
+    pointer-events:none;
 }
 
 .blurPhoto.hide{
