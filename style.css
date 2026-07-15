@@ -26,11 +26,11 @@ h1{
     left:0;
     top:0;
 
-    filter:blur(45px) brightness(.55);
+    filter:blur(45px) brightness(.10);
 
     opacity:1;
 
-    transition:opacity .7s ease;
+    transition:opacity .9s ease;
 
     z-index:1;
 
@@ -100,5 +100,5 @@ h1{
 }
 */
 #unlockButton:hover{
-    transform:translate(-50%,-50%) scale(1.05);
+    transform:translate(-50%,-50%) scale(1.2);
 }
